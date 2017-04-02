@@ -1,0 +1,26 @@
+# Symlink created at boot time.
+etc/localtime
+etc/mtab
+
+# Created by networkmanager
+etc/resolv.conf
+
+# Locks files
+etc/.pwd.lock
+etc/.updated
+var/.updated
+
+# Machine dependent files (the machine could change)
+etc/machine-id
+etc/hostname
+etc/avahi/services/dboard-discover.service
+
+# Systemd temporary files
+var/lib/systemd/coredump/
+var/lib/systemd/random-seed
+
+# Shell history
+home/root/.ash_history
+
+# General cache
+var/cache/
